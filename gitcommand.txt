@@ -1,0 +1,50 @@
+# Check Git version
+git --version
+
+# Create a new Git repository
+git init
+
+# Check the status of your files
+git status
+
+# Add a file
+git add index.html
+
+# Add all files
+git add .
+
+# Save changes
+git commit -m "Initial commit"
+
+# View commit history
+git log
+
+# Create a new branch
+git branch feature
+
+# Switch to a branch
+git checkout feature
+
+# Create and switch to a new branch
+git checkout -b feature
+
+# See all branches
+git branch
+
+# Switch back to main
+git checkout main
+
+# Connect to a remote repository
+git remote add origin <repository-url>
+
+# Push code to GitHub
+git push -u origin main
+
+# Get the latest code
+git pull
+
+
+
+
+
+GitHub-APIS -> https://github.com/public-apis/public-apis
